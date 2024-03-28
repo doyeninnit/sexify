@@ -4,7 +4,7 @@ import { ChatPromptTemplate } from "@langchain/core/prompts";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 
 const chatModel = new ChatOpenAI({
-  openAIApiKey: "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",
+  openAIApiKey: "",
 });
 
 const prompt = ChatPromptTemplate.fromMessages([
